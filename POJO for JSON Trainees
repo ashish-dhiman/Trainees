@@ -1,0 +1,147 @@
+
+public class Item_variant
+{
+    private String price;
+
+    private String variant;
+
+    public String getPrice ()
+    {
+        return price;
+    }
+
+    public void setPrice (String price)
+    {
+        this.price = price;
+    }
+
+    public String getVariant ()
+    {
+        return variant;
+    }
+
+    public void setVariant (String variant)
+    {
+        this.variant = variant;
+    }
+
+    @Override
+    public String toString()
+    {
+        return "ClassPojo [price = "+price+", variant = "+variant+"]";
+    }
+}
+************************************************************************************
+
+public class Items
+{
+    private Item_variant[] item_variant;
+
+    private String item_name;
+
+    private String image;
+
+    public Item_variant[] getItem_variant ()
+    {
+        return item_variant;
+    }
+
+    public void setItem_variant (Item_variant[] item_variant)
+    {
+        this.item_variant = item_variant;
+    }
+
+    public String getItem_name ()
+    {
+        return item_name;
+    }
+
+    public void setItem_name (String item_name)
+    {
+        this.item_name = item_name;
+    }
+
+    public String getImage ()
+    {
+        return image;
+    }
+
+    public void setImage (String image)
+    {
+        this.image = image;
+    }
+
+    @Override
+    public String toString()
+    {
+        return "ClassPojo [item_variant = "+item_variant+", item_name = "+item_name+", image = "+image+"]";
+    }
+}
+************************************************************************************
+public class Category
+{
+    private String category_name;
+
+    private Items[] items;
+
+    private String image;
+
+    public String getCategory_name ()
+    {
+        return category_name;
+    }
+
+    public void setCategory_name (String category_name)
+    {
+        this.category_name = category_name;
+    }
+
+    public Items[] getItems ()
+    {
+        return items;
+    }
+
+    public void setItems (Items[] items)
+    {
+        this.items = items;
+    }
+
+    public String getImage ()
+    {
+        return image;
+    }
+
+    public void setImage (String image)
+    {
+        this.image = image;
+    }
+
+    @Override
+    public String toString()
+    {
+        return "ClassPojo [category_name = "+category_name+", items = "+items+", image = "+image+"]";
+    }
+} 
+************************************************************************************
+
+public class AllMenuPOJO
+{
+    private Category[] category;
+
+    public Category[] getCategory ()
+    {
+        return category;
+    }
+
+    public void setCategory (Category[] category)
+    {
+        this.category = category;
+    }
+
+    @Override
+    public String toString()
+    {
+        return "ClassPojo [category = "+category+"]";
+    }
+}
+
