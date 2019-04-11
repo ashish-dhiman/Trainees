@@ -9,7 +9,7 @@ password
 
 URL:
 
-http://151.106.28.86/myProject11-war/HomeDeliveryServices?btn=LOGIN&username=admin&password=admin
+http://151.106.28.86:8080/myProject11-war/HomeDeliveryServices?btn=LOGIN&username=admin&password=admin
 
 RESULT:
 
@@ -36,8 +36,7 @@ answer
 
 
 URL:
-
-http://151.106.28.86/myProject11-war/HomeDeliveryServices?btn=Create Account&registerStr={"register":[{
+http://151.106.28.86:8080/myProject11-war/HomeDeliveryServices?btn=Create Account&registerStr={"register":[{
 "firstname":"abc",
 "lastname":"abc",
 "b_date":"20/03/1993",
@@ -69,7 +68,7 @@ old password
 new password
 
 URL
-http://151.106.28.86/myProject11-war/HomeDeliveryServices?btn=Change Password&changeStr=
+http://151.106.28.86:8080/myProject11-war/HomeDeliveryServices?btn=Change Password&changeStr=
 {"username":"xyz",
 "old password":"abc",
 "new password":"ggg"}
@@ -86,7 +85,7 @@ username
 question
 
 URL
-http://151.106.28.86/myProject11-war/HomeDeliveryServices?btn=Forgot Password&forgotStr= 
+http://151.106.28.86:8080/myProject11-war/HomeDeliveryServices?btn=Forgot Password&forgotStr= 
 {"username":"admin",
  "question":"What is your name?"}
 
@@ -102,7 +101,7 @@ answer
 
 
 URL
-http://151.106.28.86/myProject11-war/HomeDeliveryServices?btn=confirm&confirmStr= 
+http://151.106.28.86:8080/myProject11-war/HomeDeliveryServices?btn=confirm&confirmStr= 
 {"username":"admin",
  "answer":"dilbar"}
 
@@ -116,7 +115,7 @@ RESULT
 
 
 URL
-http://151.106.28.86/myProject11-war/HomeDeliveryServices?btn=Menu
+http://151.106.28.86:8080/myProject11-war/HomeDeliveryServices?btn=Menu
 
 
 ************************************** PLACE ORDER ****************************
@@ -132,7 +131,7 @@ variant_name
 quantity
 
 URL:
-http://151.106.28.86/myProject11-war/HomeDeliveryServices?btn=Order&orderStr=
+http://151.106.28.86:8080/myProject11-war/HomeDeliveryServices?btn=Order&orderStr=
 { "order": 
 	{ 
 		"order_date":"20/03/2015",  
@@ -160,7 +159,7 @@ comment
 
 
 URL
-http://151.106.28.86/myProject11-war/HomeDeliveryServices?btn=Feedback&feedbackStr= 
+http://151.106.28.86:8080/myProject11-war/HomeDeliveryServices?btn=Feedback&feedbackStr= 
 {"username":"admin",
 "comment" : "good"}
 
