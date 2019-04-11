@@ -1,0 +1,171 @@
+151.106.28.86
+
+*************************** LOGIN *************************************************
+
+PARAMETERS:
+
+username
+password
+
+URL:
+
+http://151.106.28.86/myProject11-war/HomeDeliveryServices?btn=LOGIN&username=admin&password=admin
+
+RESULT:
+
+{"Answer":"dilbar","Question":"What is your name?","Address":"15p 66kv grid colony","Username":"admin","Password":"admin","Birth_Date":"22-02-88","FirstName":"Dilbar","Email_Address":"dilwar.singh@drishinfo.com","Phone_No":"9041247438","LastName":"Singh","City":"patiala"}
+
+or
+
+Customer not exist
+
+***************************************** CREATE ACCOUNT ***********************************
+PARAMETERS:
+
+firstname
+lastname
+b_date
+phn_no
+email_add
+address
+city
+username
+password
+question
+answer
+
+
+URL:
+
+http://151.106.28.86/myProject11-war/HomeDeliveryServices?btn=Create Account&registerStr={"register":[{
+"firstname":"abc",
+"lastname":"abc",
+"b_date":"20/03/1993",
+"phn_no":"1230546987",
+"email_add":"abc@gmail.com",
+"address":"dsd",
+"city":"saa",
+"username":"sdf",
+"password":"aaa",
+"question":"afdf",
+"answer":"adf"
+}]}
+
+
+
+RESULT-
+{"result":"successful"} {"Answer":"adf","Phone Number":"1230546987","Question":"afdf","Password":"aaa","Username":"sdf","Delivery Address":"dsd","Email Address":"abc@gmail.com","Date Of Birth":"20\/03\/1993","City":"saa","Last Name":"abc","First Name":"abc"}
+
+or
+
+{"result":"user already exist"}
+
+************************************** CHANGE EXISTING PASSWORD *************************************
+
+PARAMETERS:
+
+username
+old password
+new password
+
+URL
+http://151.106.28.86/myProject11-war/HomeDeliveryServices?btn=Change Password&changeStr=
+{"username":"xyz",
+"old password":"abc",
+"new password":"ggg"}
+
+RESULT
+{"result":"successful"}
+
+
+************************************** GET EXISTING PASSWORD (A) ****************************
+
+PARAMETERS:
+
+username
+question
+
+URL
+http://151.106.28.86/myProject11-war/HomeDeliveryServices?btn=Forgot Password&forgotStr= 
+{"username":"admin",
+ "question":"What is your name?"}
+
+RESULT
+{"question":"What is your name?"}
+
+
+************************************** GET EXISTING PASSWORD (B) ****************************
+
+PARAMETERS:
+username
+answer
+
+
+URL
+http://151.106.28.86/myProject11-war/HomeDeliveryServices?btn=confirm&confirmStr= 
+{"username":"admin",
+ "answer":"dilbar"}
+
+
+RESULT
+{"result":"successful","username":"admin","password":"admin"}
+
+
+
+************************************** MENU ****************************
+
+
+URL
+http://151.106.28.86/myProject11-war/HomeDeliveryServices?btn=Menu
+
+
+************************************** PLACE ORDER ****************************
+
+
+PARAMETERS:
+order_date
+username
+total_price
+price
+item_name
+variant_name
+quantity
+
+URL:
+http://151.106.28.86/myProject11-war/HomeDeliveryServices?btn=Order&orderStr=
+{ "order": 
+	{ 
+		"order_date":"20/03/2015",  
+		"username":"xyz", 
+		"total_price":"200",
+		 "order_detail":
+			[
+				{ "price":"200",
+				 "item_name":"Crown Pizza",
+				 "variant_name":"", 
+				"quantity":"1"}] }  
+}
+
+RESULT:
+{"result":"Order Confirmed"}
+
+
+
+
+************************************** FEEDBACK ****************************
+
+PARAMETERS:
+username
+comment
+
+
+URL
+http://151.106.28.86/myProject11-war/HomeDeliveryServices?btn=Feedback&feedbackStr= 
+{"username":"admin",
+"comment" : "good"}
+
+
+RESULT
+{"result":"successful"}
+
+
