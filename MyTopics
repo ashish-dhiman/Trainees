@@ -1,0 +1,20 @@
+Stream API
+filter
+map
+reduce
+sequential
+parallel
+IntStream
+LongStream
+DoubleStream
+Function<T,R>
+mapToInt
+Predicate
+Consumer
+Supplier
+java.util.Optional
+Stream.of()
+Stream.generate()
+Stream.iterate()
+collect()
+flatMap
