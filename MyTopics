@@ -18,3 +18,15 @@ Stream.generate()
 Stream.iterate()
 collect()
 flatMap
+-----------------------------
+Loops: while and for
+The “for in” loop
+Array methods
+Map, Set, WeakMap and WeakSet
+JSON methods
+Scheduling: setTimeout and setInterval
+Error Handling
+Class
+Promises
+jQuery Selectors
+HTML processing: Get Attributes, Set Attributes, append, prepend, after, before, remove and empty
