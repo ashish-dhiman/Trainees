@@ -30,3 +30,30 @@ Class
 Promises
 jQuery Selectors
 HTML processing: Get Attributes, Set Attributes, append, prepend, after, before, remove and empty
+------------------------------
+WAP to delete text "to String" from an ArrayList. (User can add same text multiple times, in case of multiple instance: every instance)
+WAP to delete text "to String" from a sentence.
+What is meant by contiguous memory location?
+Consumer
+Supplier
+Use of Predicate
+Use of Optional
+Methods of Optional
+Difference between map() and mapToInt()
+Can we pass a list to apply()
+Exception handling in Stream
+How to store stream for later use
+Use of IntStream, methods of IntStream
+What is "lazy" in streams
+Parallel stream
+flatMap
+collect()
+Stream.iterate()
+Stream.generate()
+Stream.of()
+
+
+
+
+
+
