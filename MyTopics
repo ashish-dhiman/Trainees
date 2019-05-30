@@ -51,6 +51,20 @@ collect()
 Stream.iterate()
 Stream.generate()
 Stream.of()
+-------------------------------------
+jQuery Selectors
+HTML processing: Get Attributes, Set Attributes, append, prepend, after, before, remove and empty
+CSS: css, addClass, removeClass and toggleClass
+Dimensions: width, height, innerHeight, outerHeight, innerWidth, outerWidth, clientHeight, natural Height, clientWidth and naturalWidth
+Events: click, hover, mouseenter, mouseleave, trigger, hoverIntent, bind, unbind, on and off
+Effects: show, hide, fade, slide, animate and stop
+Ajax
+Traversing: parent, parents, parentsUntil, closest, children, find, siblings, next, nextAll, nextUntil, prev, prevAll and prevUntil
+Filtering: first, last, eq, filter and not
+DataTables
+-------------------------------------
+"Comparable and Comparator
+Sorting of Collections: primitive and custom object, Sorting of Array:  primitive and custom object"
 
 
 
