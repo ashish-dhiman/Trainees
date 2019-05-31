@@ -65,6 +65,13 @@ DataTables
 -------------------------------------
 "Comparable and Comparator
 Sorting of Collections: primitive and custom object, Sorting of Array:  primitive and custom object"
+--------------------------------------
+What are extensions?
+Create the Manifest
+Create Background Script
+Introduce a User Interface
+Content scripts
+Chrome APIs
 
 
 
