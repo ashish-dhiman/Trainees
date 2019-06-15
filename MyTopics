@@ -165,3 +165,53 @@ June 15
 PRESENTATION: Hibernate and Spring.
 Unit Testing: JUnit
 --------------------------------
+17 June	
+
+Core Java	
+"Java Date Time API
+ConcurrentHashMap
+JDBC"
+
+Spring	
+Unit Testing: JUnit
+--------------------------------
+18 June	
+
+Core Java	
+"Annotations
+Enumerations
+Anonymous classes"
+
+Spring Boot	
+"Introduction
+Features
+System Requirement"
+--------------------------------
+19 June	
+
+Core Java	
+"Exception handling
+exception handling construct: Try-With-Resources
+Serialisation & De-serialisation"
+
+Spring Boot	
+"Maven
+Spring boot with Maven"
+--------------------------------
+20 June	
+
+Core Java	
+"Use of toString() method and what happens if we override it
+Multithreading
+Coding best practices"
+
+Spring Boot	
+Configuration, Spring Beans and Dependency Injection
+-------------------------------
+21 June	
+
+Presentation on	Coding best practices, MultiThreading, JUnit
+
+Spring Boot	"Customizing SpringApplication
+Application Events and Listeners
+Accessing Application Arguments"
